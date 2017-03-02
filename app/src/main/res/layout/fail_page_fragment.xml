@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="10"
+    android:background="@drawable/congruent_pentagon">>
+    <!--android:background="#EEFFBB">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="昨天完成度不到80%哦！"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="稍稍降低一些標準也沒關係"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="調整好屬於自己的步調"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="再努力一次吧！(`・ω・´)"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="今天也要加油哦！"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/back"
+            android:layout_gravity="right|center_horizontal"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:text="回首頁"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:gravity="bottom|center"
+            android:text="失敗的廣告！"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:background="#000000">
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
